@@ -55,7 +55,13 @@ export default function Navbar() {
             textAlign={useBreakpointValue({ base: 'center', md: 'left' })}
             fontFamily={'heading'}
             color={useColorModeValue('gray.800', 'white')}>
-            Logo
+              <Button 
+              as={'a'}
+              href="/"
+              variant={'link'}
+              >
+                Logo
+              </Button>
           </Text>
 
           <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
